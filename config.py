@@ -43,10 +43,10 @@ FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002144197464"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first} , Thanks for using me :D @Anime_Alliance ⚡.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first} , Thanks for using me :D @HG_Anime ⚡.")
 try:
-    ADMINS=[5191566338]
-    for x in (os.environ.get("ADMINS", "5191566338").split()):
+    ADMINS=[1390875822]
+    for x in (os.environ.get("ADMINS", "1390875822").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -55,7 +55,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "👋 Hello {first}!\nPlease Join our channel First [ᴛᴀᴘ ᴏɴ ᴊᴏɪɴ ⚡] then\n Download by tapping on ⚡Try Again \nThank You ❤️")
 
 #Start pic 
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/32eb29db2b906542cfb6b.jpg")
+START_PIC = os.environ.get("START_PIC", "https://graph.org/file/90e97f2ee363e5a4b0af2.jpg")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
@@ -69,7 +69,7 @@ DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "🚫 Please Avoid Direct Messages. I'm Here merely for file sharing!"
 
-#Auto delete by Trippy op
+#Auto delete by HG Anime
 AUTO_DEL = os.environ.get("AUTO_DEL", "True")
 DEL_TIMER = int(os.environ.get("DEL_TIMER", "600"))
 DEL_MSG = "<b> Baka! Files will be deleted After {time}. Save them to the Saved Message now! </b>"
@@ -78,7 +78,7 @@ DEL_MSG = "<b> Baka! Files will be deleted After {time}. Save them to the Saved 
 
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(5191566338)
+ADMINS.append(1390875822)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
